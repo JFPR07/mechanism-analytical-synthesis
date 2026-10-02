@@ -65,12 +65,21 @@ En el código / In the code: `prescribed_data_list`.
 
 **EN** The ranges come from drawing, in CAD, the M circles that cross the area where the fixed pivots can be placed. A range of β₂ is defined and, **for each β₂**, a range of β₃ with its lower limit, upper limit and step. All angles are in degrees.
 
-| β₂ (°) | β₃ límite inferior / lower (°) | β₃ límite superior / upper (°) | Paso / Step (°) |
-|---:|---:|---:|---:|
-| −10.6 | −86 | −85.7 | 0.1 |
-| −10.8 | −89 | −86.2 | 0.4 |
-| −11.0 | −92.8 | −86.6 | 0.2 |
-| −11.2 | −97 | −87 | 1 |
+| $\beta_2$ (°) | $\beta_3$ Subintervalo 1 | $\beta_3$ Subintervalo 2 | Paso / Step (°) |
+| :---: | :---: | :---: | :---: |
+| $-10.6$ | $-86$ a $-85.7$ | — | $0.1$ |
+| $-10.8$ | $-89$ a $-86.2$ | — | $0.4$ |
+| $-11.0$ | $-92.8$ a $-86.6$ | — | $0.2$ |
+| $-11.2$ | $[-97; -92]$ | $[-88; -87]$ | $1$ |
+| $-11.4$ | $[-118; -95]$ | $[-88.5; -87.5]$ | $0.5$ |
+| $-11.6$ | $[-119; -100]$ | $[-89; -87.5]$ | $0.5$ |
+| $-11.8$ | $[-120; -105]$ | $[-89.5]$ | $0.5$ |
+| $-12.0$ | $-121$ a $-110$ | — | $1$ |
+| $-12.2$ | $-122$ a $-114$ | — | $1$ |
+| $-12.4$ | $-123$ a $-116$ | — | $1$ |
+| $-12.6$ | $-124$ a $-118$ | — | $1$ |
+| $-12.8$ | $-124.5$ a $-120$ | — | $0.5$ |
+| $-13.0$ | $-125.5$ a $-121.5$ | — | $1$ |
 
 En el código / In the code: `beta_2_range`, `beta_3_ranges_by_beta_2`.
 
